@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 
-mongoose.connect('mongodb+srv://juliopm142:juliopm142142@cluster0.xzwh9.mongodb.net/').then(()=>console.log('database connected successfully')).catch(e=>console.log(e))
+mongoose.connect('mongodb+srv://-----:----@cluster0.xzwh9.mongodb.net/').then(()=>console.log('database connected successfully')).catch(e=>console.log(e))
 
 const userSchema = new mongoose.Schema({
     name : String,
